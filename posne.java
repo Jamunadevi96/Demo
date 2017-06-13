@@ -5,14 +5,14 @@ class posne
 public static void main(String args[])
 {
 int n;
-Scanner sc=new Scanner (String args[]);
+Scanner sc=new Scanner (System.in);
 n=sc.next();
-if(n>0)
-System.out.println("println("positive number");
+if(n==0)
+System.out.println("Zero");
 else if(n<0)
-System.out.println("negative number");
-else(n=0)
-System.out.println("zero");
+System.out.println("Negative");
+else
+System.out.println("positive");
 }
 }
 }

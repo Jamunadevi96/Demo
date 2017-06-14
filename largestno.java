@@ -4,8 +4,16 @@ class largestno
 {
 public static void main(string args[])
 {
-int a[]=new int[3];
+int n;
 Scanner sc=new Scanner(System.in);
-a[i]=sc.next();
-for(i=0;i<arr.length;i++)
+int n=sc.next();  
+for(i=0;i<n;i++)
 {
+  a[i]=sc.nextInt();
+  if(num>large)
+    num=large;
+}
+  System.out.println(num);
+}
+}
+  

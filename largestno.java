@@ -2,19 +2,20 @@ import java.io.*;
 import java.util.*;
 class largestno
 {
-public static void main(string args[])
+public static void main(String args[])
 {
-int n,larg=a[0];
-int a[]=new int[n];
+int n,i;
+int a[]=new int[3];
+int large=a[0];
 Scanner sc=new Scanner(System.in);
-int n=sc.next();  
-for(i=0;i<a.length;i++)
+ n=sc.nextInt();  
+for(i=1;i<a.length;i++)
 {
-  a[i]=sc.next();
-  if(num>large)
-  num=large;
+  a[i]=sc.nextInt();
+  if(a[i]>large)
+  large=a[i];
 }
-  System.out.println(num);
+  System.out.println("largest number=:"+large);
 }
 }
   

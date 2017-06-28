@@ -1,4 +1,4 @@
-importjava.io.*;
+import java.io.*;
 import java.util.*;
 class fact
 {

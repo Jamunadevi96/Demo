@@ -5,9 +5,9 @@ class palindrome
 public static void main(String args[])
 {
 int n,t,rev=0;
-t=n;
 Scanner sc=new Scanner(System.in);
-n=sc.next();
+n=sc.nextInt();
+t=n;
 while(t>0)
 {
 rev=rev*10+(t%10);

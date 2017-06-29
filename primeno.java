@@ -5,7 +5,7 @@ class primeno
 public static void main(String args[])
 {
 int n,i;
-Scanner=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 for(i=2;i<n;i++)
 {

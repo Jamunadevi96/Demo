@@ -16,9 +16,9 @@ if(n%i==0)
 }
 }
  if(count==0)
-System.out.println("Primeno");
+System.out.println("Prime number");
 else
-System.out.println("Not a prime no");
+System.out.println("Not a prime number");
 }
 }
 

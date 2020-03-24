@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class Convert_m_cm
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+int A = sc.nextInt();
+int B = A*1000;
+int C = B*100;
+System.out.println(B);
+System.out.println(C);
+}
+}
